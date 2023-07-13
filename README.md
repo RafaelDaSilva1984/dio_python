@@ -15,7 +15,7 @@
 ### Input end= "... \n " #end terminar em ... adicionadno quebra de linha no final
 ### Input sep= "#" #sep significa separador mudar separos de espaço para # dio#python
 ## Operadores
-### Operadores Aritméticos são : soma + , subtração - , divisão com casas / , divisão inteira // , resto % , multiplicação * , exponencoação **
+### Operadores Aritméticos são : soma + , subtração - , divisão com casas / , divisão inteira // , resto % , multiplicação * , exponenciação **
 ### Operadores Lógicos : and (e) , or (ou) e not (negação)
 ### Operadores Comparação : igual (==) , diferente (!=) , >= maior igual , <= menor igual , > maior , < menor
 ### Operadores Identidades : is e not is

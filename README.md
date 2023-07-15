@@ -21,6 +21,22 @@
 ### Operadores Identidades : is e not is
 ### Operadores Atribuição : = ,+= , -= , *= , /= , //= , **= e %=
 ### Operadores Associação : in e not in
+## Estruturas Condicionais
+### if, elif(else-if), else
+#### if = se
+#### elif = se não se
+#### else = senão 
+### Identação identifica o inicio e fim de um bloco de comando
+### Expressões condições devem retornar valor booleano True ou False
+
+## Estrutura repetição
+### for = quando sabemos os limites os quais precisamos iterar
+##### range (limita o início e o fim , e como será percorrido) exemplo: for i in range(0,10,2) = [2,4,6,8]
+### while = quando não sabemos os limeites os quais precisamos iterar
+#### Precisa ter uma saída FALSE, instituida ou será loop infinito 
+#### Break - Interrompe a Execução do Looping Tamto no For quanto no While
+#### Continue - Pula para próxima iteração sem executar comandos dentro do loop
+
 
 
 

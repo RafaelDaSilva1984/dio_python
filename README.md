@@ -36,6 +36,44 @@
 #### Precisa ter uma saída FALSE, instituida ou será loop infinito 
 #### Break - Interrompe a Execução do Looping Tamto no For quanto no While
 #### Continue - Pula para próxima iteração sem executar comandos dentro do loop
+## Manipulando String
+#### upper()Maiúculas
+#### lower()Minúsculas
+#### strip()Eliminar espaços em branco
+#### lstrip()Eliminar espaços em branco left
+#### rstrip()Eliminar espaços em branco right
+#### replace("old","new")Substitui palavra por outra na string
+#### center()Centralizar
+#### join()Junção de Strings
+#### split(",")Separar as strings   
+#### count() conta as ocorrência em uma string
+#### find() procura pela primeira posição da substring passada
+#### startswith(),endswith()- verifica se começa/termina com determinado texto
+
+## Formatação de String
+#### old Style % - utiliza o %
+#### new style .format()
+#### fstring f'{}'
+
+## Fatiamento "Fatiamento de Strings Python"
+#### (nome[0])#Caracter 0
+#### (nome[-1])#Caracter -1 último caracter
+#### nome[:9])#até caracter 9
+#### (nome[10:])#apartir caracter 10
+#### (nome[10:16])#apartir caracter 10 start até 16 stop
+#### (nome[10:16:2])#apartir caracter 10 até 16 de 2 em dois caracteres
+#### (nome[:])#cópia da string sem start e stop
+#### (nome[::-1])#Cria cópia invertida sem start e stop
+
+## Multiplas Stings
+#### f"""
+#### Quebra as linhas conforme a sua necessidade
+#### mas com validade total de toda String
+#### """
+
+
+
+
 
 
 

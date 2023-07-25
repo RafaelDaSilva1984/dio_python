@@ -62,8 +62,7 @@ while True:
             
         for c in range(numero_saques):  
             listagem_sacar.append(sacar)
-            listagem_saques = set(listagem_sacar)                                            
-                
+            listagem_saques = set(listagem_sacar)   
             
     elif opcao == "e": 
         print("************************EXTRATO**********************")

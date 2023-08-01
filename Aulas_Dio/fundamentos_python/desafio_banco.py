@@ -17,6 +17,7 @@ saldo = 0
 limite = 500
 extrato = " "
 numero_saques = 0
+numero_depositos = 0
 LIMITE_SAQUES = 3
 data_atual = date.today()
 
@@ -29,7 +30,7 @@ while True:
         if valor > 0:
             saldo += valor
             extrato += f"Depósito: R$ {valor:.2f}\n"
-            
+            numero_depositos += 1
         else:
             print("Operção falhou: O valor informado é inválido.")
         
@@ -57,11 +58,14 @@ while True:
             print("Operação falhou: O valor informado é inválido.")
             
     elif opcao == "e":
-        print("\n*************************EXTRATO***********************")        
-        print("Não foram realizada movimentações." if not extrato else extrato)
-        print(f"\nSaldo: R$ {saldo:.2f}")
-        print(f'=>========================Seu Saldo é: R$ {saldo:.2f} em {data_atual} <=') 
-        print("\n*******************************************************")
+        print("\n*************************EXTRATO***********************") 
+        if saldo == 0 and numero_depositos <= 0 and numero_saques<= 0:
+            print("Não foram realizada movimentações." )
+        else:            
+            print(f"\nSaldo: R$ {saldo:.2f}")
+            print(f'=>========================Seu Saldo é: R$ {saldo:.2f} em {data_atual} <=') 
+            print("\n*******************************************************")
+        
     elif opcao == "q":
         print("Finalizando sessão!")
         break

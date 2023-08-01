@@ -1,11 +1,9 @@
-dados = ['laranja', 'banana', 'maçã', 'morango', 'uva', 'pera', 'maçã', 'limão', 'banana', 'laranja']
-valores = []
-repetidos = set()
 
-for dado in dados:
-    if dado not in valores:
-        valores.append(dado)
-    else:
-        repetidos.add(dado)
-print(f'Valores = {valores}')
-print(f'Repetidos = {repetidos}')
+listas_valores = []
+c = 0
+
+while c < 3:
+    valor = float(input("Valor: "))
+    c +=1
+    listas_valores.append(valor)
+print(listas_valores)
